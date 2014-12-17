@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.rootsoft.weatherapplication.R;
 import com.rootsoft.weatherapplication.managers.OnCityListener;
@@ -20,9 +19,8 @@ import com.rootsoft.weatherapplication.views.adapters.CityAdapter;
 import org.json.JSONException;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import utils.json.JSONParser;
+import com.rootsoft.weatherapplication.json.JSONParser;
 
 /**
  * Created by RootSoft on 17/12/14.

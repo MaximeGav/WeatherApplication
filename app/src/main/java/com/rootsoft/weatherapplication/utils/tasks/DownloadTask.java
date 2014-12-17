@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.rootsoft.weatherapplication.managers.OnCityListener;
 import com.rootsoft.weatherapplication.utils.constants.AppConstants;
@@ -19,10 +18,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLClassLoader;
 import java.net.URLConnection;
 
-import utils.json.JSONParser;
+import com.rootsoft.weatherapplication.json.JSONParser;
 
 /**
  * Created by RootSoft on 17/12/14.

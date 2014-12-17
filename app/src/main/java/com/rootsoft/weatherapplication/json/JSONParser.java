@@ -1,8 +1,7 @@
-package utils.json;
+package com.rootsoft.weatherapplication.json;
 
 import com.rootsoft.weatherapplication.models.City;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
